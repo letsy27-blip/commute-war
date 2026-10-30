@@ -9,7 +9,7 @@
 - 1.238의 맵과 캐릭터, 채팅 서버, 튜토리얼/스토리 및 기존 완료 수정은 그대로 보존했습니다. 미완성 길드 변경은 포함하지 않았습니다.
 - 앱 ID com.commutewar.game과 기존 서명을 유지했습니다. APK code 242, 공개 다운로드 해시와 자동 콘텐츠의 변경 파일 25개 해시를 확인했습니다.
 - Google Play Alpha: 1.238(code 241)은 테스터 제공 중입니다. 1.239(code 242) AAB는 업로드하고 검토 요청을 제출했습니다. 현재 자동 검사 후 검토 전송 대기이며 테스터 제공은 미확인입니다.
-- [요청별 반영표](outputs/release-1.239/request-verification.md)와 [배포 검증](outputs/release-1.239/deployment-verification.json)을 확인할 수 있습니다. 실제 휴대폰 성능과 두 휴대폰 사이 채팅 검사는 미실시입니다.
+- [요청별 반영표](https://github.com/letsy27-blip/commute-war/releases/download/v1.239/request-verification.md)와 [배포 검증](https://github.com/letsy27-blip/commute-war/releases/download/v1.239/deployment-verification.json)을 확인할 수 있습니다. 실제 휴대폰 성능과 두 휴대폰 사이 채팅 검사는 미실시입니다.
 
 # 출근전쟁
 
