@@ -1,18 +1,20 @@
 <!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>출근전쟁 개인정보처리방침</title><style>body{max-width:780px;margin:40px auto;padding:0 20px;font:16px/1.8 system-ui,sans-serif;color:#222;background:#fff}h1{font-size:28px}h2{font-size:21px;margin-top:32px}a{color:#16478c}table{border-collapse:collapse;width:100%}td,th{border:1px solid #ccc;padding:10px;text-align:left;vertical-align:top}small{color:#555}</style>
-<h1>출근전쟁 개인정보처리방침</h1><p><small>개발자: 홍스톡 · 시행일: 2026년 10월 19일 · 앱: 출근전쟁(com.commutewar.game)</small></p>
-<p>홍스톡은 출근전쟁의 로그인, 게임 진행, 온라인 순위와 구매 기능을 제공하기 위해 아래 정보를 처리합니다. 문의 및 삭제 요청: <a href="mailto:letsy27@gmail.com">letsy27@gmail.com</a>.</p>
+<h1>출근전쟁 개인정보처리방침</h1><p><small>개발자: 홍스톡 · 시행일: 2026년 10월 30일 · 앱: 출근전쟁(com.commutewar.game)</small></p>
+<p>홍스톡은 출근전쟁의 로그인, 게임 진행, 온라인 순위, 채팅과 구매 기능을 제공하기 위해 아래 정보를 처리합니다. 문의 및 삭제 요청: <a href="mailto:letsy27@gmail.com">letsy27@gmail.com</a>.</p>
 <h2>1. 처리하는 정보와 목적</h2>
 <table><tr><th>구분</th><th>정보 및 이용 목적</th></tr>
 <tr><td>Google 계정 연결</td><td>게임 계정 식별자(Firebase UID), 이메일, 표시 이름, 프로필 사진 주소를 받아 로그인, 계정 구분, 프로필 표시와 구매 계정 확인에 사용합니다. Google 비밀번호는 받지 않습니다.</td></tr>
-<tr><td>기기에 저장하는 진행 정보</td><td>캐릭터 성장, 장비, 보유 재화·혜택, 챕터 진행, 도감 기록과 설정을 기기에 저장합니다. 현재 일반 진행 정보 전체를 서버에 자동 백업하는 기능은 제공하지 않습니다.</td></tr>
+<tr><td>기기에 저장하는 진행 정보</td><td>캐릭터 성장, 장비, 보유 재화·혜택, 챕터 진행, 도감 기록과 설정을 기기에 저장합니다. Google 계정 연결 시 계정별 진행 정보, 저장 버전과 저장 시각을 Firebase Cloud Firestore에 동기화하여 같은 계정의 진행을 불러오고 저장 충돌을 확인합니다.</td></tr>
 <tr><td>온라인 명예의전당</td><td>계정 식별자, 표시 이름, 챕터·캐릭터 정보, 클리어 시간과 기록 시각을 Firebase Cloud Firestore에 저장합니다. 표시 이름과 완주 정보는 로그인한 다른 이용자에게 순위로 표시됩니다. 순위에 이메일이나 Google 프로필 사진을 공개하지 않습니다.</td></tr>
+<tr><td>전체 채팅과 신고</td><td>로그인한 이용자가 전송한 닉네임, 메시지, 계정 식별자와 전송 시각을 Firebase Cloud Firestore에 저장합니다. 닉네임, 메시지와 전송 시각은 로그인한 다른 이용자에게 표시됩니다. 신고를 보내면 신고자 계정 식별자, 대상 메시지 식별자와 신고 시각을 별도로 저장하여 신고 처리와 부정 이용 확인에 사용합니다. 신고 내용은 전체 채팅에 공개하지 않습니다. 차단 목록은 해당 계정의 기기에 저장합니다.</td></tr>
 <tr><td>Google Play 구매</td><td>상품 식별자, 구매 토큰, 구매·복원 상태와 계정 구분 정보를 구매 처리 및 혜택 중복 지급 방지에 사용합니다. 결제 수단과 카드 정보는 Google Play가 처리하며 개발자가 받지 않습니다.</td></tr>
 <tr><td>서비스 운영과 보안</td><td>Google/Firebase 인증 서비스는 IP 주소, SDK·플랫폼 정보 및 앱 식별 정보를 인증 보안과 부정 이용 방지 목적으로 처리할 수 있습니다. 게임 자료를 내려받을 때 Google 또는 GitHub 등 전송 서비스에 네트워크 접속 정보가 전달됩니다.</td></tr></table>
 <h2>2. 선택 기능과 제3자 서비스</h2>
-<p>기본 게임은 Google 계정을 연결하지 않고 이용할 수 있습니다. 온라인 순위와 계정이 필요한 구매·복원 기능은 로그인 및 네트워크 연결이 필요합니다. Google 로그인·Firebase, Google Play 결제, GitHub 자료 배포 서비스를 사용합니다. 각 서비스의 데이터 처리는 <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>, <a href="https://firebase.google.com/support/privacy">Firebase 개인정보 및 보안 안내</a>, <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 개인정보처리방침</a>도 참고해 주세요. 개인정보를 판매하지 않습니다.</p>
+<p>기본 게임은 Google 계정을 연결하지 않고 이용할 수 있습니다. 온라인 순위, 전체 채팅, 계정 동기화와 계정이 필요한 구매·복원 기능은 로그인 및 네트워크 연결이 필요합니다. Google 로그인·Firebase, Google Play 결제, GitHub 자료 배포 서비스를 사용합니다. 각 서비스의 데이터 처리는 <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>, <a href="https://firebase.google.com/support/privacy">Firebase 개인정보 및 보안 안내</a>, <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 개인정보처리방침</a>도 참고해 주세요. 개인정보를 판매하지 않습니다.</p>
 <h2>3. 보관과 삭제</h2>
-<p>기기 진행 정보는 해당 계정의 게임 데이터 삭제 또는 기기에서 앱 데이터 삭제 시 제거됩니다. 설정에서 계정 삭제를 완료하면 Firebase 인증 계정과 그 계정의 온라인 순위 기록을 삭제하고, 삭제를 진행한 기기의 해당 계정 진행·혜택 정보를 정리합니다. 다른 계정과 게스트의 분리된 기록은 유지됩니다. 다른 기기에 남아 있는 로컬 데이터는 해당 기기에서도 별도로 삭제할 수 있습니다.</p>
+<p>기기 진행 정보는 해당 계정의 게임 데이터 삭제 또는 기기에서 앱 데이터 삭제 시 제거됩니다. 설정에서 계정 삭제를 완료하면 Firebase 인증 계정과 그 계정의 온라인 순위 기록, 서버 진행 정보, 본인이 전송한 채팅 메시지와 신고 기록을 삭제하고, 삭제를 진행한 기기의 해당 계정 진행·혜택 정보를 정리합니다. 다른 계정과 게스트의 분리된 기록은 유지됩니다. 다른 기기에 남아 있는 로컬 데이터는 해당 기기에서도 별도로 삭제할 수 있습니다.</p>
 <p>Google 계정 자체 및 Google Play의 결제 내역은 이 게임의 계정 삭제로 삭제되거나 환불되지 않습니다. 해당 정보의 보관·처리는 Google의 정책이 적용됩니다. Google/Firebase 등의 보안 운영 기록은 각 제공자의 정책에 따른 기간 동안 보관될 수 있습니다. 구매 혜택이 연결된 게임 계정을 삭제하면 해당 계정의 진행·혜택을 복원하지 못할 수 있으므로 삭제 안내를 확인해 주세요.</p>
+<p>채팅 메시지와 신고 기록은 계정 삭제 또는 운영상 삭제 전까지 보관하며, 최근 메시지 일부를 채팅창에 표시합니다. 다른 이용자의 기기에 이미 표시되거나 별도로 보관된 내용까지 회수할 수는 없습니다.</p>
 <h2>4. 이용자의 요청 방법</h2>
 <p>앱의 환경설정에서 <b>게임 계정 삭제</b>를 선택하고, 같은 Google 계정으로 다시 인증해 삭제할 수 있습니다. 앱을 이용할 수 없는 경우 <a href="delete-account.html">계정 및 데이터 삭제 요청 안내</a>에 따라 고객지원 이메일로 요청할 수 있습니다. 본인 확인 후 해당 데이터의 열람·정정·삭제 요청을 처리하고 결과를 안내합니다. 비밀번호나 결제 수단 전체 정보는 보내지 마세요.</p>
 <h2>5. 보호조치와 변경 안내</h2>
