@@ -1,12 +1,13 @@
-## 최신 배포 1.249
+## 최신 배포 1.252
 
-- Android APK: [commute-war-v1.249.apk](https://github.com/letsy27-blip/commute-war/releases/download/v1.249/commute-war-v1.249.apk)
-- 웹: https://commute-war-web-168.leehongseok.chatgpt.site
-- 기존 지원 앱의 서명 콘텐츠 자동업데이트: 1.249 (최소 versionCode 240)
-- APK versionCode: 252. 기존 앱 ID와 서명 유지. Play 새 네이티브 출시 제출은 하지 않았습니다.
-- 스토리 대화창의 이전/다음 강제 숨김 규칙을 제거하고 이전, 다음, 스킵 순서로 복구했습니다.
-- 844×390에서 세 버튼 노출과 48px 터치 영역, 첫 대사 이전 비활성화, 이전/다음 이동, 스킵 종료를 실제 클릭으로 확인했습니다.
-- 벨로라 고해상도 대화 이미지와 기존 자동 넘김, 전투, 맵을 유지합니다. 실제 Android 휴대폰 표시는 미확인입니다.
+- [Android APK 1.252](https://github.com/letsy27-blip/commute-war/releases/download/v1.252/commute-war-v1.252.apk) versionCode 255
+- [웹 플레이](https://commute-war-web-168.leehongseok.chatgpt.site)
+- 서명 콘텐츠 자동 업데이트 1.252 최소 versionCode 240 기존 앱 ID와 설치 서명 유지
+- 드래곤 일반 공격의 사전 로딩을 보존하고 활성 본체 프레임을 캐시에 유지합니다.
+- 드래곤은 배치 자리에서 공격하고 발톱 효과는 적 위치에 표시합니다. 1~4차 좌우 방향과 서로 다른 높이의 적에 대한 48개 타격 위치 검사를 통과했습니다.
+- 캐릭터 본체, 무기, 장비와 소환수에는 진급별 공격 효과 크기를 적용하지 않습니다. 진시황 소환수의 공격 중 크기 변화와 드래곤 모션 캐시 유실을 수정했습니다.
+- 문 앞 수비 문구와 맵 선택의 중복 챕터 표시를 제거하고 문 HP를 실제 문 중심에 맞췄습니다.
+- 이전 1.249의 스토리 이전/다음/스킵, 고해상도 대화 이미지와 기존 기능을 보존했습니다. 실제 Android 휴대폰 설치 및 성능은 미확인입니다.
 
 # 출근전쟁
 
