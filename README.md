@@ -1,12 +1,12 @@
-## 최신 배포 1.247
+## 최신 배포 1.248
 
-- Android APK: [commute-war-v1.247.apk](https://github.com/letsy27-blip/commute-war/releases/download/v1.247/commute-war-v1.247.apk)
+- Android APK: [commute-war-v1.248.apk](https://github.com/letsy27-blip/commute-war/releases/download/v1.248/commute-war-v1.248.apk)
 - 웹: https://commute-war-web-168.leehongseok.chatgpt.site
-- 기존 지원 APK의 서명 콘텐츠 자동업데이트: 1.247 (최소 versionCode 240)
-- APK versionCode: 250. 앱 ID와 기존 서명 유지. 이번 변경은 Play에 새 네이티브 출시로 제출하지 않았습니다.
-- 저승사자 1~4차 이펙트 목표 위치, 벨로라 1~4차 필살기 크기와 위치, 빨간 크리티컬 표시, 이펙트 캐시 병목 개선.
-- 캐릭터와 맵 크기, 일반 공격 효과 130/160/190/220px, 실제 타격 시간과 피해 규칙 유지.
-- 검증: 17명 68진급 5동작 좌우 비교, 일반 공격 204건, 저승사자 목표 192건, 투사체 120개, 일반 타격 272건 픽셀 동일성. 844×390 전투 확인. 8명 16빌런 2배속 검사에서 준비 후 CPU p95 8.1ms, p99 15.7ms. 실제 Android 휴대폰 설치와 성능은 미확인입니다.
+- 기존 지원 APK의 서명 콘텐츠 자동업데이트: 1.248 (최소 versionCode 240)
+- APK versionCode: 251. 기존 앱 ID와 서명 유지. 이번 변경은 Play에 새 네이티브 출시로 제출하지 않았습니다.
+- 벨로라 1~4차 스토리 대화 이미지에 기존 승인된 고해상도 SD 원화를 연결했습니다. 작은 전투용 이미지를 대화창에서 확대하던 문제를 수정했습니다.
+- 잘라낸 대화 이미지 높이: 기존 118px에서 354/340/339/334px. 모바일 대화창의 표시 영역 유지.
+- 기존 1.247의 전투 캐릭터, 공격 5동작, 이펙트, 맵과 피해 규칙 유지. 844×390에서 네 진급 수정 전후 비교 및 연결 검증. 실제 Android 휴대폰 표시는 미확인입니다.
 
 # 출근전쟁
 
