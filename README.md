@@ -1,15 +1,13 @@
-## 최신 배포 1.239 (2026-10-31)
+## 최신 배포 1.240 (2026-10-31)
 
-- [정식 APK 다운로드](https://github.com/letsy27-blip/commute-war/releases/download/v1.239/commute-war-v1.239.apk) ([릴리스 기록](https://github.com/letsy27-blip/commute-war/releases/tag/v1.239))
-- [웹 플레이](https://commute-war-web-168.leehongseok.chatgpt.site)와 서명 자동 콘텐츠도 1.239입니다. code 240 이상 앱에 제공합니다.
-- 채팅과 뒤로/메인메뉴/제목 겹침, 로딩과 자동 스토리의 좌우 버튼, 출근하기 녹색 줄을 수정했습니다.
-- 일반 공격 204종의 진급별 크기를 통일하고 실제 적의 피격 효과와 머리 위 데미지 숫자를 연결했습니다. 필살기 크기는 유지하며 벨로라 4차 잘림을 수정했습니다.
-- 한재혁 3차 원투와 4차 흡연 대기, 방패 팔/파지와 초상화, 4차 영혼 유지 시간, 잔다르크 1차 장비 초상화를 반영했습니다.
-- 저승사자 1~4차 몸 5% 축소, 변신한 용만 1차 20% 2~4차 10% 확대, 대상 처치 시 후속 연타 중단을 반영했습니다.
-- 1.238의 맵과 캐릭터, 채팅 서버, 튜토리얼/스토리 및 기존 완료 수정은 그대로 보존했습니다. 미완성 길드 변경은 포함하지 않았습니다.
-- 앱 ID com.commutewar.game과 기존 서명을 유지했습니다. APK code 242, 공개 다운로드 해시와 자동 콘텐츠의 변경 파일 25개 해시를 확인했습니다.
-- Google Play Alpha: 1.238(code 241)은 테스터 제공 중입니다. 1.239(code 242) AAB는 업로드하고 검토 요청을 제출했습니다. 현재 자동 검사 후 검토 전송 대기이며 테스터 제공은 미확인입니다.
-- [요청별 반영표](https://github.com/letsy27-blip/commute-war/releases/download/v1.239/request-verification.md)와 [배포 검증](https://github.com/letsy27-blip/commute-war/releases/download/v1.239/deployment-verification.json)을 확인할 수 있습니다. 실제 휴대폰 성능과 두 휴대폰 사이 채팅 검사는 미실시입니다.
+- [정식 APK 다운로드](https://github.com/letsy27-blip/commute-war/releases/download/v1.240/commute-war-v1.240.apk) ([릴리스 기록](https://github.com/letsy27-blip/commute-war/releases/tag/v1.240))
+- [웹 플레이](https://commute-war-web-168.leehongseok.chatgpt.site)와 서명 자동 콘텐츠도 1.240입니다. 기존 code 240 이상 앱이 받을 수 있습니다.
+- 일반 공격 이펙트는 진급별 130/160/190/220px입니다. 전체 17캐릭터 공격 204종을 확인했습니다.
+- 척준경 4차 공중 검과 부착 광채는 크기 보정에서 제외하고 공격 궤적과 분리했습니다. 같은 시각 대기/공격 양방향 1,350회 비교에서 무기 배율은 1입니다. 필살기와 적 피격 효과 크기는 유지합니다.
+- 반복 이미지 검사와 Canvas 함수, 검 끝 광채를 캐시에 저장합니다. 안드로이드 전투 캔버스 비율 상한은 1.5로 조정해 고해상도 캔버스 픽셀 처리량을 최대 43.75% 줄였습니다. 화면상 크기와 전투 판정/속도는 유지합니다.
+- PC 소프트웨어 래스터 부하 검사의 p95는 57.03ms에서 51.29ms였습니다. 실제 휴대폰에서 렉이 해소됐는지는 아직 확인하지 않았습니다.
+- 1.239의 기존 수정과 7,415개 콘텐츠 경로, 기존 앱 ID와 서명을 보존했습니다. APK code 243입니다.
+- 기존 Play 출시 요청은 변경하지 않았습니다. 설치 버전과 별도로 테스터 앱도 자동 콘텐츠 1.240을 받을 수 있습니다.
 
 # 출근전쟁
 
