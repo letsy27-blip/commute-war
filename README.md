@@ -1,12 +1,12 @@
-## 최신 배포 1.248
+## 최신 배포 1.249
 
-- Android APK: [commute-war-v1.248.apk](https://github.com/letsy27-blip/commute-war/releases/download/v1.248/commute-war-v1.248.apk)
+- Android APK: [commute-war-v1.249.apk](https://github.com/letsy27-blip/commute-war/releases/download/v1.249/commute-war-v1.249.apk)
 - 웹: https://commute-war-web-168.leehongseok.chatgpt.site
-- 기존 지원 APK의 서명 콘텐츠 자동업데이트: 1.248 (최소 versionCode 240)
-- APK versionCode: 251. 기존 앱 ID와 서명 유지. 이번 변경은 Play에 새 네이티브 출시로 제출하지 않았습니다.
-- 벨로라 1~4차 스토리 대화 이미지에 기존 승인된 고해상도 SD 원화를 연결했습니다. 작은 전투용 이미지를 대화창에서 확대하던 문제를 수정했습니다.
-- 잘라낸 대화 이미지 높이: 기존 118px에서 354/340/339/334px. 모바일 대화창의 표시 영역 유지.
-- 기존 1.247의 전투 캐릭터, 공격 5동작, 이펙트, 맵과 피해 규칙 유지. 844×390에서 네 진급 수정 전후 비교 및 연결 검증. 실제 Android 휴대폰 표시는 미확인입니다.
+- 기존 지원 앱의 서명 콘텐츠 자동업데이트: 1.249 (최소 versionCode 240)
+- APK versionCode: 252. 기존 앱 ID와 서명 유지. Play 새 네이티브 출시 제출은 하지 않았습니다.
+- 스토리 대화창의 이전/다음 강제 숨김 규칙을 제거하고 이전, 다음, 스킵 순서로 복구했습니다.
+- 844×390에서 세 버튼 노출과 48px 터치 영역, 첫 대사 이전 비활성화, 이전/다음 이동, 스킵 종료를 실제 클릭으로 확인했습니다.
+- 벨로라 고해상도 대화 이미지와 기존 자동 넘김, 전투, 맵을 유지합니다. 실제 Android 휴대폰 표시는 미확인입니다.
 
 # 출근전쟁
 
