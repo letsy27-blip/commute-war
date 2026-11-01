@@ -1,15 +1,14 @@
-## 최신 배포 1.257
+## 최신 배포 1.258
 
-- [Android APK 1.257](https://github.com/letsy27-blip/commute-war/releases/download/v1.257/commute-war-v1.257.apk) versionCode 260
+- [Android APK 1.258](https://github.com/letsy27-blip/commute-war/releases/download/v1.258/commute-war-v1.258.apk) versionCode 261
 - [웹 플레이](https://commute-war-web-168.leehongseok.chatgpt.site)
-- 서명 콘텐츠 자동 업데이트 1.257 최소 versionCode 258. 기존 앱 ID와 설치 인증서 유지.
-- 벨로라 4차 일반 공격 1/2/3 이펙트만 원화 비율을 유지해 30% 확대. 캐릭터 몸과 무기 크기는 유지.
-- 벨로라 4차 필살기가 화면 가장자리에서 전체 축소되던 문제 수정. 표시 영역 안에서 위치를 보정하고 원화를 온전히 표시.
-- 편성창 하단 소방관 초상화에 기존 일러스트 얼굴 사용. SD 로봇 전투 외형과 동작은 유지.
-- 844×390에서 대기, 공격 1/2/3, 필살기 비교판과 좌우 방향 및 화면 가장자리 검증. 68개 진급의 몸, 동작, 타격 판정과 시간 보존 검사.
-- 공개 APK 전체 해시, 설치 인증서, 콘텐츠 RSA 서명, 변경 파일 6개와 실제 웹 버전 검증. 실제 휴대폰 설치는 미확인.
+- 서명 콘텐츠 자동 업데이트 1.258 최소 versionCode 258. 기존 앱 ID와 설치 인증서 유지.
+- 서버에서 확인한 기존 운영자 계정의 전체 채팅 닉네임과 본문을 빨간색으로 표시.
+- 인증된 발신자 Firebase UID로 구분하며 닉네임이나 메시지의 임의 운영자 값으로 사칭할 수 없도록 처리.
+- 길드 이름은 2~16자. 깃발에 16자 전체가 줄바꿈되어 표시되는 것을 844×390에서 확인.
+- 변경 파일 6개, APK 전체 해시와 설치 인증서, 콘텐츠 RSA 서명 및 실제 웹 버전 검증. 실제 휴대폰 설치는 미확인.
 
-APK SHA256: `f736536ecef0c236b2b88022be6610cfa5bc21931d193b43c9013eb7546ef201`
+APK SHA256: `8a66ef429efcdae6a0f1abbc11c7aa1f85a5d27c99abce0724a4221eae5819c8`
 
 # 출근전쟁
 
