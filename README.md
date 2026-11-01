@@ -1,3 +1,15 @@
+## 최신 배포 1.260
+
+- [Android APK 1.260](https://github.com/letsy27-blip/commute-war/releases/download/v1.260/commute-war-v1.260.apk) versionCode 263
+- [웹 플레이](https://commute-war-web-168.leehongseok.chatgpt.site)
+- 게임 전체 글꼴을 스포카 한 산스 Neo로 통일했습니다. 메뉴, 채팅, 길드, 장비, 팝업, 스토리와 전투 숫자 및 크리티컬 표시를 포함합니다.
+- 글꼴 3종과 라이선스를 APK에 동봉했습니다. 1.259 앱은 기존 서명 콘텐츠 자동 업데이트로도 받을 수 있습니다.
+- 1.259를 기준으로 관련 파일 22개만 변경하고 기존 기능과 모든 콘텐츠 경로를 보존했습니다. 미완성 레이드와 별도 보스 변경은 제외했습니다.
+- 기존 앱 ID와 설치 서명 유지. 1,545개 번들 파일 해시, 공개 APK 전체 SHA256, 업데이트 manifest RSA 서명 및 변경 파일 해시를 검증했습니다.
+- 844×390 게임 화면과 공개 웹 로그인 글꼴을 확인했습니다. 실제 휴대폰 설치와 Google Play 트랙 배포는 이번 검증에 포함하지 않았습니다.
+
+APK SHA256: `110f05588eee9ab9c724b1c982b6c97fbd2dc937e8d4490be065407dd23ddcb6`
+
 ## 최신 배포 1.259
 
 - [Android APK 1.259](https://github.com/letsy27-blip/commute-war/releases/download/v1.259/commute-war-v1.259.apk) versionCode 262
