@@ -1,3 +1,15 @@
+## 최신 배포 1.281
+
+- [Android APK 1.281](https://github.com/letsy27-blip/commute-war/releases/download/v1.281/commute-war-v1.281.apk) versionCode 284
+- 전투와 로딩 이미지 처리 최적화, 거점방어전 17개 맵 지형과 진입 경로 개선.
+- 플레이어 크기 유지와 빌런 505종 보정, 소방관 로봇과 태권도 이펙트 접촉점 수정.
+- 레이드 진입과 내 캐릭터 편성, 자동 배속 일시정지 조작 수정.
+- 기존 서명, 공개 APK와 콘텐츠 전체 다운로드 해시 및 자동 업데이트 확인 완료.
+- 테스터 AAB 284 업로드와 Alpha 검토 접수 완료. Google 승인 후 제공됩니다.
+- 실제 휴대폰 설치와 FPS는 미검증입니다.
+
+APK SHA256: `012c0f494aa8f0dc13c2b69aac52acc572febf6774ed0a289fbbe06d1f2dc02d`
+
 ## 최신 배포 1.260
 
 - [Android APK 1.260](https://github.com/letsy27-blip/commute-war/releases/download/v1.260/commute-war-v1.260.apk) versionCode 263
